@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,7 +14,7 @@ body{
 
 }
 .container header {
-  color:#b2b2b2;  
+  color: #b2b2b2;  
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -30,38 +30,36 @@ header .column {
     display: flex;
     align-items: center;
 }
-header .column span{
+header .column span {
     font-weight: 500;
     margin-right: 15px;
     font-size: 1.19rem;
 }
 .volume-slider input{
-    accent-color:#fff ;
+    accent-color: #fff ;
 
 }
 .keys-check input{
-
     width: 60px;
     height: 30px;
-    appearance:none;
+    appearance: none;
     border-radius: 30px;
     background-color: #4b4b4b;
     cursor: pointer;
     position: relative;
 }
+
 .keys-check input::before {
-content:"";
-height:20px;
-width:20px;
-background-color:#8c8c8c;
-position:absolute;
+content: "";
+height: 20px;
+width: 20px;
+background-color: #8c8c8c;
+position: absolute;
 top: 50%;
 left: 0.3rem;
 border-radius: inherit;
 transform: translateY(-50%);
 transition: all 0.3s ease;
-
-
 }
 
 .keys-check input:checked::before {
@@ -69,7 +67,7 @@ transition: all 0.3s ease;
     background-color: #fff;
 }
 .piano-keys {
-    display:flex ;
+    display: flex ;
     margin-top: 40px;
 }
 
@@ -115,6 +113,5 @@ transition: all 0.3s ease;
 
 }
 .piano-keys .key.hide span {
-
     display: none;
 }
